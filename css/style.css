@@ -1,0 +1,56 @@
+* {
+  font-family: "Nanum Gothic Coding", cursive;
+}
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("./night.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.title-font {
+  font-family: "Martian Mono", monospace;
+}
+.card {
+  border-radius: 0 !important;
+  border-color: black;
+}
+.card-body {
+  padding: 0;
+}
+.card-title,
+.card-text {
+  text-align: center;
+  padding: 15px;
+  margin: 0;
+}
+.btn {
+  border-radius: 0;
+}
+.pagination > .disabled > .page-link {
+  color: gray !important;
+  background-color: rgb(50, 50, 50) !important;
+  border-color: rgb(50, 50, 50) !important;
+}
+.pagination > li > a {
+  color: white;
+  background-color: gray;
+  border-color: gray;
+}
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover {
+  color: white;
+  background-color: black;
+  border-color: black;
+}
+.pagination > .active > a {
+  color: white;
+  background-color: black !important;
+  border: solid 1px black !important;
+}
+.pagination > .active > a:hover {
+  color: black;
+  background-color: white !important;
+  border: solid 1px white !important;
+}
